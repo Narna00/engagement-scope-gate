@@ -1,0 +1,9 @@
+{
+  "engagement_id": "LAB-2026-001",
+  "approved_by": "Example lab owner",
+  "valid_from": "2026-01-01T00:00:00Z",
+  "valid_until": "2027-01-01T00:00:00Z",
+  "allow": ["192.0.2.0/24", "*.example.test"],
+  "deny": ["192.0.2.10/32", "payments.example.test"],
+  "services": [{"protocol": "tcp", "port": 443}]
+}

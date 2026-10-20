@@ -1,0 +1,6 @@
+[
+  {"host": "192.0.2.5", "protocol": "tcp", "port": 443},
+  {"host": "payments.example.test", "protocol": "tcp", "port": 443},
+  {"host": "api.example.test.attacker.test", "protocol": "tcp", "port": 443},
+  {"host": "192.0.2.5", "protocol": "udp", "port": 443}
+]

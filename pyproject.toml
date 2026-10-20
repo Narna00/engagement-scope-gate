@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "engagement-scope-gate"
+version = "0.1.0"
+description = "Check a proposed target inventory against a time-bounded rules-of-engagement record before handing it to assessment tooling."
+readme = "README.md"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+scope-gate = "scope_gate:main"
+
+[tool.setuptools]
+py-modules = ["scope_gate"]
